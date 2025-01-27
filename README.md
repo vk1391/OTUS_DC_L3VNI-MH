@@ -40,8 +40,8 @@ bonds:
       transmit-hash-policy: layer3+4
       mii-monitor-interval: 100
 ```
- - netplan apply
- - ifconfig bond0 up
+   - netplan apply
+   - ifconfig bond0 up
 
 2. Настройка Port-channel на Leaf:
 - Leaf1:
